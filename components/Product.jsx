@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Product = ({ product }) => {
 	const { image, name, slug, price, details } = product;
-	console.log(product);
+	// console.log(product);
 	return (
 		<div>
 			<Link href={`/product/${slug.current}`}>

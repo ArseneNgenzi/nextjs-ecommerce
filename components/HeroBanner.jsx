@@ -4,7 +4,7 @@ import { urlFor } from 'lib/client'
 import product from 'sanityecommerce/schemas/product'
 
 const HeroBanner = ({bannerData}) => {
-  console.log(bannerData)
+  // console.log(bannerData)
   const {buttonText, desc, largeText1,  midText,  smallText, image} = bannerData
   return (
     <div>
